@@ -1,0 +1,131 @@
+.countrie-spec__container {
+    
+    padding: 0 10px;
+    padding-bottom: 80px;
+    @extend .container;
+}
+
+@media (min-width:820px) {
+    .countrie-spec__container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.input-back {
+    margin: 10px 0 10px 10px;
+    padding: 10px 20px;
+    background-color: white;
+    width:150px;
+    color: $light-text;
+    text-decoration: none;
+    font-family: "Nunito600";
+    @extend .shadow;
+
+    i {
+        margin-right: 15px;
+        font-size: 1.8rem;
+    }
+}
+
+.countrie-spec__image {
+    margin-bottom: 40px;
+}
+
+@media (min-width:820px) {
+    .countrie-spec__image {
+        flex-basis: calc(50% - 2rem);
+    }
+
+    .countrie-spec__container--two {
+    flex-basis: calc(50% - 2rem);
+
+    }
+}
+
+@media (min-width:980px) {
+    .countrie-spec__details{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .countrie-spec__details--one {
+        flex-basis: calc(50% - 1.5rem);
+        
+    }
+
+    .countrie-spec__details--two {
+        align-self: center;
+        flex-basis: 50%;
+    }
+}
+
+
+.countrie-spec__details--one {
+    margin-bottom: 40px;
+
+    h2 {
+        font-family: "Nunito800";
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: "Nunito600";
+        margin-bottom: 10px;
+        font-size: 1.5rem
+    }
+    
+    span {
+        font-family: "Nunito";
+    }
+}
+
+
+.countrie-spec__details--two {
+    margin-bottom: 40px;
+
+    p {
+        font-family: "Nunito600";
+        margin-bottom: 10px;
+        font-size: 1.5rem
+    }
+    
+    span {
+        font-family: "Nunito";
+    }
+}
+
+.countrie-spec__borders {
+
+    h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+}
+
+.countrie-spec__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    a {
+        width: 95px;
+        padding: 8px 35px;
+        margin-bottom:10px;
+        color: $light-text;
+        background-color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        @extend .shadow;
+    }
+}
+
+@media (min-width: 980px) {
+    .countrie-spec__item a {
+        margin-right: 10px;
+    }
+
+    .countrie-spec__item a:last-child {
+        margin-right: 0;
+    }
+}

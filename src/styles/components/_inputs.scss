@@ -1,0 +1,72 @@
+.inputs {
+    @extend .container;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+@media (min-width: 768px) {
+    .inputs {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
+}
+
+.input-group {
+    position: relative;
+    height:50px;
+    width: 100%;
+    margin-bottom: 30px;
+
+
+    &__image {
+        position: absolute;
+        top: 16px;
+        left: 25px;
+        opacity: 0.2;
+    }
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 60px;
+    z-index: 2;
+    font-family: "Nunito";
+    @extend .shadow;
+
+}
+
+@media (min-width: 768px) {
+    input[type="text"] {
+        width: 500px;
+    
+    }
+
+}
+
+::placeholder {
+    width: 100%;
+    opacity: 0.7;
+    letter-spacing: 1px;
+
+}
+
+select {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: none;
+    padding: 0 15px;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    font-family: "Nunito";
+    
+    @extend .shadow;
+}
