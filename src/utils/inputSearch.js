@@ -12,7 +12,7 @@ const inputSearch = async (ev) => {
 
         const code = data.alpha3Code
 
-        window.location = `countries-api/#/${code}`
+        window.location = `/#/${code}`
         
     } catch (error) {
         console.error("New error", error)
