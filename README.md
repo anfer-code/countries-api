@@ -4,20 +4,20 @@ Esta es una solución al reto: [REST Countries API with color theme switcher cha
 
 ## Tabla de contenido
 
-- [Vista General](#Vista General)
-  - [El reto](#El reto)
+- [Vista General](#Vista-General)
+  - [El reto](#El-reto)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Mi proceso](#Mi proceso)
   - [Construido](#Construido)
-  - [Lo aprendido](#Lo aprendido)
+  - [Lo aprendido](#Lo-aprendido)
 - [Contactame](#Contactame)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Vista General
+## Vista-General
 
-### El reto
+### El-reto
 
 Los usuarios podran:
 
@@ -50,7 +50,7 @@ Los usuarios podran:
 - Babel
 - SPA (Single Page Aplication)
 
-### Lo aprendido
+### Lo-aprendido
 
 Fue un reto que comencé para afianzar mis conocimientos adquiridos en el curso de Single Page Aplication en platzi. A su vez fue una manera de retarme para crear mi primer SPA con Vanilla Javascript
 
