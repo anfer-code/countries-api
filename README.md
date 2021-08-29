@@ -8,10 +8,10 @@ Esta es una solución al reto: [REST Countries API with color theme switcher cha
   - [El reto](#El reto)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Mi proceso](#mi proceso)
+- [Mi proceso](#Mi proceso)
   - [Construido](#Construido)
-  - [lo aprendido](#lo aprendido)
-- [Autor](#autor)
+  - [Lo aprendido](#Lo aprendido)
+- [Contactame](#Contactame)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -35,12 +35,12 @@ Los usuarios podran:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Repositorio URL: [https://github.com/anfer-code/countries-api](https://github.com/anfer-code/countries-api)
+- Live Site URL: [https://anfer-code.github.io/countries-api/](https://anfer-code.github.io/countries-api/)
 
 ## Mi proceso
 
-### Construido:
+### Construido
 
 - HTML5 Semántico
 - CSS personalizado
