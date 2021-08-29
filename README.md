@@ -13,8 +13,6 @@ Esta es una solución al reto: [REST Countries API with color theme switcher cha
   - [Lo aprendido](#Lo-aprendido)
 - [Contactame](#Contactame)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Vista-General
 
 ### El-reto
