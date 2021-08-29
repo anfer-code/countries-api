@@ -6,7 +6,7 @@ const selectRegion = async (ev) => {
     const region = input.value != 0 ? input.value : console.error("Error")
 
     const response = await getData(`region/${region}`)
-    window.location = `/#/${region}`
+    window.location = `countries-api/#/${region}`
 }
 
 export default selectRegion
