@@ -12,7 +12,11 @@ const inputSearch = async (ev) => {
 
         const code = data.alpha3Code
 
-        window.location = `/#/${code}`
+        let setLocation = window.location.pathname ? window.location.origin + window.location.pathname : window.location.origin
+
+        let searchLocation = `${setLocation}#/${code}`
+
+        window.location.assign(searchLocation)
         
     } catch (error) {
         console.error("New error", error)
