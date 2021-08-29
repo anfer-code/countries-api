@@ -8,7 +8,7 @@ Esta es una solución al reto: [REST Countries API with color theme switcher cha
   - [El reto](#El-reto)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Mi proceso](#Mi proceso)
+- [Mi proceso](#Mi-proceso)
   - [Construido](#Construido)
   - [Lo aprendido](#Lo-aprendido)
 - [Contactame](#Contactame)
@@ -38,7 +38,7 @@ Los usuarios podran:
 - Repositorio URL: [https://github.com/anfer-code/countries-api](https://github.com/anfer-code/countries-api)
 - Live Site URL: [https://anfer-code.github.io/countries-api/](https://anfer-code.github.io/countries-api/)
 
-## Mi proceso
+## Mi-proceso
 
 ### Construido
 
