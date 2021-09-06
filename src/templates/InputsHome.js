@@ -1,7 +1,7 @@
 const InputsHome = () => {
     const view =  /*html*/`
         <div class="input-group">
-            <span class="input-group__image"><i class="fas fa-search"></i></span>
+            <span class="toogle-text input-group__image"><i class="fas fa-search"></i></span>
             <input class="toogle-element toogle-text" placeholder="Search for a country..." type="text" id="input-text">
         </div>
 

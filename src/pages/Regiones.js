@@ -24,7 +24,7 @@ const Regiones = async () => {
 
     const countrie = await getData(`region/${data}`)
     const view =  /*html*/`
-        <section class="content__countries">
+        <section class="content__countries animar">
             ${countrie.map(i => `
                 <a href="#/${i.alpha3Code}">
                     <div class="toogle-element toogle-text countrie">
@@ -34,7 +34,7 @@ const Regiones = async () => {
                         <div class="countrie__description">
                             <h2 class="countrie__name">${i.name}</h2>
                             <div class="countrie__info">
-                                <p>Population: <span>${i.population}</span></p>
+                                <p>Population: <span>${i.population.toLocaleString()}</span></p>
                                 <p>Region: <span>${i.region}</span></p>
                                 <p>Capital: <span>${i.capital}</span></p>
                             </div>

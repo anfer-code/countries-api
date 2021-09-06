@@ -7,7 +7,8 @@ const selectRegion = async (ev) => {
 
     let searchLocation = `${setLocation}#/${region}`
     
-    window.location.assign(searchLocation)
+    //Puedo implementar la url con assign o href
+    window.location.href = searchLocation
 }
 
 export default selectRegion

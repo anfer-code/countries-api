@@ -14,7 +14,7 @@ const Countrie = async () => {
 
     seccionInput.innerHTML = await InputBack()
     const view = /*html*/`
-        <div class="countrie-spec__container">
+        <div class="animar countrie-spec__container">
             <div class="countrie-spec__image">
                 <img src="${countrie.flag}">
             </div>
@@ -25,7 +25,7 @@ const Countrie = async () => {
                     <div class="countrie-spec__details--one toogle-text">
                         <h2 class="toogle-text">${countrie.name}</h2>
                         <p class="toogle-text">Native Name: <span>${countrie.nativeName }</span> </p>
-                        <p class="toogle-text">Population: <span>${countrie.population}</span> </p>
+                        <p class="toogle-text">Population: <span>${countrie.population.toLocaleString()}</span> </p>
                         <p class="toogle-text">Region: <span>${countrie.region}</span> </p>
                         <p class="toogle-text">Sub Region: <span>${countrie.subregion}</span> </p>
                         <p class="toogle-text">Capital: <span>${countrie.capital}</span> </p>
@@ -34,7 +34,7 @@ const Countrie = async () => {
                     <div class="countrie-spec__details--two">
                     <p class="toogle-text">Top Level Domain: ${countrie.topLevelDomain.map(i => `<span>${i}</span>`).join("")}</p>
                     <p class="toogle-text">Currencies: <span>${countrie.currencies[0].name}</span> </p>
-                    <p class="toogle-text">Languages: ${countrie.languages.map(i => `<span>${i.name}</span>`).join("")}</p>
+                    <p class="toogle-text">Languages: ${countrie.languages.map(i => `<span>${i.name}</span>`).join(", ")}</p>
                     </div>
                 </div>
 

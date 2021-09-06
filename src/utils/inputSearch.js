@@ -16,6 +16,7 @@ const inputSearch = async (ev) => {
 
         let searchLocation = `${setLocation}#/${code}`
 
+        //Puedo implementar la url con assign o href
         window.location.assign(searchLocation)
         
     } catch (error) {
