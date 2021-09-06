@@ -4,20 +4,18 @@ Esta es una solución al reto: [REST Countries API with color theme switcher cha
 
 ## Tabla de contenido
 
-- [Vista General](#Vista General)
-  - [El reto](#El reto)
+- [Vista General](#Vista-General)
+  - [El reto](#El-reto)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Mi proceso](#mi proceso)
+- [Mi proceso](#Mi-proceso)
   - [Construido](#Construido)
-  - [lo aprendido](#lo aprendido)
-- [Autor](#autor)
+  - [Lo aprendido](#Lo-aprendido)
+- [Contactame](#Contactame)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## Vista-General
 
-## Vista General
-
-### El reto
+### El-reto
 
 Los usuarios podran:
 
@@ -35,12 +33,12 @@ Los usuarios podran:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Repositorio URL: [https://github.com/anfer-code/countries-api](https://github.com/anfer-code/countries-api)
+- Live Site URL: [https://anfer-code.github.io/countries-api/](https://anfer-code.github.io/countries-api/)
 
-## Mi proceso
+## Mi-proceso
 
-### Construido:
+### Construido
 
 - HTML5 Semántico
 - CSS personalizado
@@ -50,7 +48,7 @@ Los usuarios podran:
 - Babel
 - SPA (Single Page Aplication)
 
-### Lo aprendido
+### Lo-aprendido
 
 Fue un reto que comencé para afianzar mis conocimientos adquiridos en el curso de Single Page Aplication en platzi. A su vez fue una manera de retarme para crear mi primer SPA con Vanilla Javascript
 
